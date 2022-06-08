@@ -28,16 +28,16 @@ file.on('line', (line) => {
         const amount = arr[1];
         slotArr = parkingLotCreate(amount);
     }
-    if(command === 'park') {
+    else if(command === 'park') {
         const plateNum = arr[1];
         slotArr = parkingLotPark(slotArr, plateNum);
     }
-    if(command === 'leave') {
+    else if(command === 'leave') {
         const plateNumber = arr[1];
         const durationHour = arr[2];
         slotArr = parkingLotLeave(slotArr, plateNumber, durationHour);
     }
-    if(command === 'status') {
+    else if(command === 'status') {
         parkingLotStatus(slotArr);
     }
 });
