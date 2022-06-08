@@ -1,0 +1,25 @@
+{
+  "name": "logkar-tech-test",
+  "version": "1.0.0",
+  "description": "LogKar tech test vehicle parking",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Revelts/LogKar.git"
+  },
+  "keywords": [
+    "LogKar"
+  ],
+  "author": "Leynardo Yosef",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Revelts/LogKar/issues"
+  },
+  "homepage": "https://github.com/Revelts/LogKar#readme",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
