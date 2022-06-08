@@ -4,7 +4,7 @@
   "description": "LogKar tech test vehicle parking",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Revelts/LogKar/issues"
   },
-  "homepage": "https://github.com/Revelts/LogKar#readme"
+  "homepage": "https://github.com/Revelts/LogKar#readme",
+  "dependencies": {
+    "jest": "^28.1.1",
+    "jest-cli": "^28.1.1"
+  }
 }
